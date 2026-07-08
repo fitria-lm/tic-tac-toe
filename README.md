@@ -1,4 +1,4 @@
-# Brutalist Tic-Tac-Toe
+# Tic-Tac-Toe
 Tic-Tac-Toe web game built with a modern brutalist design aesthetic that prioritizes bold typography and a distinctive, responsive layout. This project offers an engaging experience with both Player vs. Player and Player vs. Computer modes, the latter of which is powered by a robust Minimax algorithm to ensure a challenging and smart AI opponent. Designed for simplicity and speed, the application utilizes native web technologies and persistent browser storage to track your scores, providing a seamless and competitive gaming experience directly in your browser.
 
 ## Features
