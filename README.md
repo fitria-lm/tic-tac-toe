@@ -8,7 +8,7 @@ Tic-Tac-Toe web game built with a modern brutalist design aesthetic that priorit
 - **Persistent Data:** Player scores are saved locally using the browser's LocalStorage.
 
 ## Screenshot
-<img src="screenshot_tic-tac-toe.png" alt="Game Interface" width="75%">
+<div align="center"><img src="screenshot_tic-tac-toe.png" alt="Game Interface" width="300px"></div>
 
 ## How to Run
 1. Clone the repository.
