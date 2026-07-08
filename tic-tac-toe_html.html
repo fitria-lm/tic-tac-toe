@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>TIC TAC TOE</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="tic-tac-toe_css.css">
+</head>
+
+<body>
+
+	<div class="container py-5 d-flex flex-column align-items-center">
+	
+		<div class="card-wrap w-100 mb-4">
+			<h1 class="title mb-0">TIC TAC<br><span class="title-underline">TOE</span></h1>
+		</div>
+
+		<div class="card-wrap w-100 d-flex gap-2 mode-toggle mb-3">
+			<button class="btn-brutal active" id="modePvP">2 PLAYER</button>
+			<button class="btn-brutal" id="modePvC">VS Computer</button>
+		</div>
+
+		<div class="card-wrap w-100 brutal-border brutal-shadow scoreboard d-flex mb-3">
+			<div class="score-cell score-x flex-fill text-center py-2">
+				<div class="score-label">Player X</div>
+				<div class="score-value" id="scoreX">0</div>
+			</div>
+			<div class="score-cell flex-fill text-center py-2">
+				<div class="score-label">Draws</div>
+				<div class="score-value" id="scoreDraw">0</div>
+			</div>
+			<div class="score-cell score-o flex-fill text-center py-2">
+				<div class="score-label" id="labelO">Player O</div>
+				<div class="score-value" id="scoreO">0</div>
+			</div>
+		</div>
+
+		<div class="card-wrap w-100 status-bar brutal-border text-center py-2 mb-3" id="statusBar"> GILIRAN X </div>
+
+		<div class="board card-wrap w-100 mb-4" id="board">
+			<div class="cell" data-index="0"></div>
+			<div class="cell" data-index="1"></div>
+			<div class="cell" data-index="2"></div>
+			<div class="cell" data-index="3"></div>
+			<div class="cell" data-index="4"></div>
+			<div class="cell" data-index="5"></div>
+			<div class="cell" data-index="6"></div>
+			<div class="cell" data-index="7"></div>
+			<div class="cell" data-index="8"></div>
+		</div>
+
+		<div class="card-wrap w-100 d-flex gap-2">
+			<button class="btn-brutal btn-accent1 flex-fill" id="resetRound">MAIN LAGI</button>
+			<button class="btn-brutal btn-accent2 flex-fill" id="resetAll">RESET SKOR</button>
+		</div>
+		
+	</div>
+
+	<script src="tic-tac-toe_js.js"></script>
+
+</body>
+</html>
