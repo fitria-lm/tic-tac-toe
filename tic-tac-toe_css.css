@@ -193,8 +193,9 @@ h1.title{
 	}
 
 .mode-toggle .btn-brutal.active{
-	background: var(--ink);
+	background: var(--x-color);
 	color: var(--bg);
+	border: 3px solid var(--ink);
 	}
 
 footer-note{
