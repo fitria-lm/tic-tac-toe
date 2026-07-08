@@ -18,5 +18,5 @@ Tic-Tac-Toe web game built with a modern brutalist design aesthetic that priorit
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-**Developed by :** Fitria LM  
-**Build Date   :** 08 July 2026
+**Developed by   :** Fitria LM  
+**Build Date     :** 08 July 2026
