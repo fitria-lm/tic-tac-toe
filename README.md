@@ -16,7 +16,7 @@ Tic-Tac-Toe web game built with a modern brutalist design aesthetic that priorit
 3. No build step is required; the project uses native JavaScript and Bootstrap 5 CDN.
 
 ---
-**Developed by:** Fitria Lukluul Maknun  
+**Developed by:** Fitria LM  
 **Build Date:** July 2026
 
 ## License
