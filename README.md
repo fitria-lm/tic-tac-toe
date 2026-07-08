@@ -8,7 +8,7 @@ Tic-Tac-Toe web game built with a modern brutalist design aesthetic that priorit
 - **Persistent Data:** Player scores are saved locally using the browser's LocalStorage.
 
 ## Screenshot
-![Game Interface](screenshot.png)
+![Game Interface](screenshot_tic-tac-toe.png)
 
 ## How to Run
 1. Clone the repository.
@@ -18,5 +18,5 @@ Tic-Tac-Toe web game built with a modern brutalist design aesthetic that priorit
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-**Developed by:** Fitria LM  
-**Build Date:** 08 July 2026
+**Developed by :** Fitria LM  
+**Build Date   :** 08 July 2026
