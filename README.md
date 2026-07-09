@@ -7,11 +7,16 @@ Tic-Tac-Toe web game built with a modern brutalist design aesthetic that priorit
 - **Smart AI:** The computer utilizes the Minimax algorithm to ensure optimal decision-making.
 - **Persistent Data:** Player scores are saved locally using the browser's LocalStorage.
 
-## Screenshot
+## Interface
 <div align="center"><img src="screenshot_tic-tac-toe.png" alt="Game Interface" width="50%"></div>
 
 ## How to Run
-1. Clone the repository.
+### Option 1: Live Demo
+You can play the game directly in your browser without any installation:
+[Click here to play the game!](https://fitria-lm.github.io/tic-tac-toe/)
+### Option 2: Local Development
+If you prefer to run it locally:
+1. Clone this repository: `git clone https://github.com/fitria-lm/tic-tac-toe.git`
 2. Open `index.html` in any modern web browser.
 3. No build step is required; the project uses native JavaScript and Bootstrap 5 CDN.
 
